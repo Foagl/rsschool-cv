@@ -7,12 +7,13 @@
 + Email: ValeriySlykin@gmail.com
 + LinkId: [linkedin/valeriislukin/]("https://www.linkedin.com/in/valeriislukin/")
 + Location: Lviv, Ukraine
++ Discord: Valerii Slukin (@Foagl)
 ---
 ## About me and my Goals:
-#### In 2020, he graduated from KhAI with a degree in Software Engineering.
+#### In 2020, I am graduated university KhAI with a degree master of Software Engineering.
 #### After training, the goal was to become a QA engineer, but due to life circumstances and lack of motivation, it was not possible to devote myself all day to teaching this specialty, to maintain interest.
-#### In order not to lose my skills, I took online courses in English and QA training 2 times a year. 2023 decided that applied programming (participate in the development process) is more interesting, while studied the JAVA language at the institute, but due to the high entry threshold and the popularity of the JavaScript language, he decided to study this language now. 
-#### Now there is a lot of motivation and interest in learning Front-End development.
+#### In order not to lose my skills, I am  passed online courses of English and QA training 2 times per year. AT 2023 decided that applied programming (participate in the development process) is more interesting, while studied the JAVA language at the institute, but due to the high entry threshold and the popularity of the JavaScript language, i am decided to study this language now. 
+#### After several years of work in another industry, where my priority was to earn as much money as possible, now I want to do business for the future and self-realization. Frontend will help me with this, where I can realize my ideas, find a company or even earn money as a freelancer
 #### *My hobbies: Playing the guitar, hiking, riding on bike and search for interesting places.*
 ---
 ## My Professional Skills:
@@ -39,11 +40,11 @@ function isWerewolf(target) {
 ## My last passed courses:
 * Online courses    QA Nix Education, Prometheus    2022 Q3
 * Courses of ENG    GreenForest Pre-Intermediate	2022 Q3
-* Online courses    Mate Academy Front-End JS basic    2023 Q1
+* Online courses    Mate Academy Front-End JS basic, self-education at learn.javascript.ru    2023 Q1
 ---
 ## Languages:
-* English:   pre-Intermediate.  but i got level like 'Intermediate' after Epam-autotest before start course "Frontend developer". 
-* Ukrainian and Russian: Nativ.  
+* English:   pre-Intermediate.  but i got level 'Intermediate' after online Epam-autotest before start course "Frontend developer". 
+* Ukrainian and Russian: Native.  
 ---
 
 
