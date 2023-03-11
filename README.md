@@ -1,2 +1,1 @@
-# rsschool-cv
-My first CV on markdown format
+https://foagl.github.io/rsschool-cv/cv
