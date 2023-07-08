@@ -3,7 +3,7 @@
 ## My contacts:
 + Tel.:  +38(098)86-50-899
 + Email: ValeriySlykin@gmail.com
-+ LinkId: [linkedin/valeriislukin/]("https://www.linkedin.com/in/valeriislukin/")
++ LinkId: [linkedin/valeriislukin/](https://www.linkedin.com/in/valeriislukin/)
 + Location: Lviv, Ukraine
 + Discord: Valerii Slukin (@Foagl)
 ## About me and my Goals:
@@ -14,7 +14,7 @@
 #### *My hobbies: Playing the guitar, hiking, riding on bike and search for interesting places.*
 ## My Professional Skills:
 * Basic level JS, Java Core, HTML, CSS, MySQL.
-* Experience on writing simple programs and algorithms on C#,C++.
+* Experience on writing simple programs and algorithms on Java,C++.
 * Experience working during training Jira, Git, Agile ( from QA courses and internships).
 ## My Soft skill:
 * responsible.
