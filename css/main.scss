@@ -1,0 +1,76 @@
+$primary-color: #2f80ed;
+$secondary-color: #333333; 
+
+
+html{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}    // Шрифт для всего html-документа.
+
+*{
+    color: $secondary-color
+}
+
+h1 {
+    color: $primary-color;
+    margin-bottom: 0.25em;  // Отступ снизу
+}
+
+h2 {
+    color: $secondary-color;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 1em;
+}
+
+.discription_title{
+    margin-top:    10px;
+    margin-bottom: 10px;
+    font-size:     20px;
+    font-weight:   bold;
+}
+
+a {  
+    color: $primary-color;
+}  // Ссылки должны быть синим цветом
+
+.contact {
+    display: flex;
+    &__type{
+        min-width: 90px;
+    }    
+}
+.contacts {
+    margin-bottom: 20px;
+}
+.contacts_type{
+    margin-right: 10px;
+}
+.discription {
+    text-align: "left";
+}
+.Skills{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.Skills_type{
+    width: 50%; /* Секцию нужно поделить на 2 части, пэтому используем display Flex и внутри него 2 item co значением ширины 50%. В видео говорится что можно использовать flex: 1 1 0; как альтернатва*/
+    display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	height: 48%;
+}
+.Skills_head {
+    margin-left: 40px;
+}
+
+.footer{
+    display: flex;
+}
+.footerElement{
+    width: 30%;
+}
