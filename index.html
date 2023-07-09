@@ -2,12 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Document</title>
+    <title>CV by Valerii Slukin</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h1> Hello world</h1>
+    <div class="main">
+        <h1>Valerii Slukin</h1>
+        <h2>Front-End Developer</h2>
+            <div class="discription_title"> My contacts:</div>
+        <div class="contacts">
+            <div class="contact">
+                <div class="contacts_type">GIT: </div>
+                <div class="Contacts_value">
+                    <a href="https://github.com/Foagl">Github</a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contacts_type">Telegram</div>
+                <div class="Contacts_value">
+                    <a href="https://t.me/foagl">Telegram</a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contacts_type">LinkId</div>
+                <div class="Contacts_value">
+                    <a href="https://www.linkedin.com/in/valeriislukin/">LinkId</a>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contacts_type">Location:</div>
+                <div class="Contacts_value">Lviv, Ukraine 
+                </div>
+            </div>
+        </div>
+        <div class="discription_title">About me and my Goals:</div>
+        <div class="discription">
+            In 2020, I am graduated university KhAI with a degree master of Software Engineering.<br>
+            After training, the goal was to become a QA engineer, but due to life circumstances and lack of motivation, it was not possible to devote myself all day to teaching this specialty, to maintain interest.<br>
+            In order not to lose my skills, I am passed online courses of English and QA training 2 times per year.<br> 
+            AT 2023 decided that applied programming (participate in the development process) is more interesting, while studied the JAVA language at the institute, but due to the high entry threshold and the popularity of the JavaScript language, i am decided to study this language now.<br>
+            After several years of work in another industry, where my priority was to earn as much money as possible, now I want to do business for the future and self-realization.<br>
+            Frontend will help me with this, where I can realize my ideas, find a company or even earn money as a freelancer.<br>
+
+            <p>My hobbies: Playing the guitar, hiking, riding on bike and search for interesting places. </p>
+        </div>
+        <div class="discription_title">My Skills:</div>
+            <div class="Skills">
+             <div class="Skills_type">
+                <div class="Skills_head">Professional:</div> 
+                <div class="Skills_body">
+                     <ul>
+                        <li>Basic level JS, Java Core, HTML, CSS, MySQL.</li>
+                        <li>Experience on writing simple programs and algorithms on Java,C++.</li>
+                        <li>Experience working during training Jira, Git, Agile ( from QA courses and internships)</li>
+                        <li>Knowledge of software development and testing cycle</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Skills_type">
+                <div class="Skills_head">Soft:</div> 
+                <div class="Skills_body">
+                    <ul>
+                        <li>responsible.</li>
+                        <li>stress-resistant.</li>
+                        <li>diligence.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="discription_title">My Example Of Code:</div>
+        <div class="ExampleOfCode">
+            <div class="Code_discription">
+                <p>Function have been writed by JavaScript:</p>
+                The task of the function is to get a word in the argument and check if
+                 it is a palindrome. The respons from function is return in the format 
+                 true or false:
+            </div> 
+            <div class="Code__body"> 
+                <code> 
+                    function isWerewolf(target) {
+                        const rexExp = /[^a-zA-Z0-9]/g;
+                         target = target.replace(rexExp, '').toLowerCase();
+                         let clearString = target.replace(rexExp, '').toLowerCase().split('').reverse().join('');
+                         return target === clearString ? true : false;
+                   }
+                       console.log(isWerewolf("Was it a rat I saw?"));
+                </code>
+            </div>
+        </div>
+        <div class="discription_title">My courses:</div>
+        <div class="My_courses">
+            <ul>
+                <li>Online courses QA Nix Education, Prometheus 2022 Q3</li>
+                <li>Courses of ENG GreenForest Pre-Intermediate 2022 Q3</li>
+                <li>Online courses Mate Academy Front-End JS basic, self-education at learn.javascript.ru 2023 Q1</li>
+            </ul>
+        </div>
+        <div class="discription_title">Languages:</div>
+        <div class="ListOfLanguage">
+            <ul>
+                <li>English: pre-Intermediate, I am got level ‘Intermediate’ by online Epam autotest before start course “Frontend developer”.</li>
+                <li>Ukrainian and Russian: Native.</li>
+            </ul>
+        </div> 
+     </div>
+     <div class="footer">
+        <div class="footerElement"><a href="https://github.com/Foagl">Author`s GitHub Profile</a> </div> 
+        <div class="footerElement"><a href="https://app.rs.school/"><img src="images/screen.png" width="200px" height="50px" alt="logo"></a></div>
+        <div class="footerElement">07/2023.
+        
+     </div>
+    
 </body>
 </html>
