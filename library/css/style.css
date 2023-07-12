@@ -1,16 +1,23 @@
 .welcome{
     width: 1440px;
     height: 600px;
-
     background: url(../images/Welcome.png), lightgray 50% / cover no-repeat;
 }
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 1440px;
     height: 90px;
    background-color: #0C0C0E;
 }
 
 .Brooklyn_Public_Library{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    weight: 294px;
+    height: 50px;
     color: #FFF;
     font-family: Forum;
     font-size: 30px;
@@ -21,10 +28,13 @@
 }
 
 .nav{
+    left: 768px;
+    top: 20px;
+    bottom: 20px;
+    right: 88px;
     display: inline-flex;
     align-items: flex-start;
     gap: 30px;
-
     color: #FFF;
 }
 .nav_link{
@@ -34,9 +44,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 50px;
+    text-decoration: none;
 }
 
-.icon-profile{
+.icon_profile{
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-right: 200px;
     width: 28px;
     height: 28px;
     flex-shrink: 0;
