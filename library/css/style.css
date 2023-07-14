@@ -5,8 +5,6 @@
 }
 .header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 1440px;
     height: 90px;
    background-color: #0C0C0E;
@@ -16,7 +14,7 @@
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-    weight: 294px;
+    width: 294px;
     height: 50px;
     color: #FFF;
     font-family: Forum;
@@ -28,10 +26,12 @@
 }
 
 .nav{
+    position: absolute;
     left: 768px;
     top: 20px;
     bottom: 20px;
     right: 88px;
+
     display: inline-flex;
     align-items: flex-start;
     gap: 30px;
@@ -48,10 +48,67 @@
 }
 
 .icon_profile{
+    position: absolute;
+    margin-left: 1392px;
     margin-top: 31px;
     margin-bottom: 31px;
     margin-right: 200px;
+
     width: 28px;
     height: 28px;
     flex-shrink: 0;
 }
+.overlay{
+    width: 1440px;
+    height: 300px;
+    flex-shrink: 0;
+
+    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
+}
+.welcome-bg{
+    display: flex;
+    width: 600px;
+    height: 220px;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;    
+}
+
+
+.about{
+    width: 1440px;
+    height: 837px;
+
+    background: #FFF;
+ }
+
+.section_title{  
+    display: flex;
+    width: 106px;
+    height: 61px;
+    flex-shrink: 0;
+ }
+/*
+.about{
+    position: absolute;
+    left: 667px;
+    right: 667px;
+    
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 2px;
+    text-transform: capitalize;
+ }
+.line{
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+
+    background: #0C0C0E;
+}
+*/
