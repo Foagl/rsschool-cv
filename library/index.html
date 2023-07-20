@@ -10,47 +10,99 @@
     <div class ="desktop">
         <div class="welcome">
             <div class="header">
-                <div class="Brooklyn_Public_Library">
-                Brooklyn Public Library
+                    <h1 class="Brooklyn_Public_Library">
+                        Brooklyn Public Library
+                    </h1>
+                    <nav class="nav"> <!-- Панель навигации-->
+                        <a class="nav_link" href="#">About</a>
+                        <a class="nav_link" href="#">Favorites</a>
+                        <a class="nav_link" href="#">Coffee shop</a>
+                        <a class="nav_link" href="#">Contacts</a>
+                        <a class="nav_link" href="#">Library Card</a>
+                    </nav>
+                    <div class="icon_profile">
+                        <img src="images/icon_profile.png" alt="logo">
+                    </div>
+            </div>
+                    <div class="overlay">
+                         <div class="welcome-bg"></div>
+                    </div>
+        </div>
+        <div class="About">
+            <div class="section_title">
+                <div class="about">About</div>
+                <div class="line"></div>
+            </div>
+            <div class="workspace">
+                The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
+            </div>
+            <div class="images_area">
+                <div class="image_area_item">
+                    <img src="images/image-1.png" alt="logo">
                 </div>
-                <div class="nav"> <!-- Панель навигации-->
-                    <a class="nav_link" href="#">About</a>
-                    <a class="nav_link" href="#">Favorites</a>
-                <a class="nav_link" href="#">Coffee shop</a>
-                <a class="nav_link" href="#">Contacts</a>
-                <a class="nav_link" href="#">Library Card</a>
-            </div>
-            <div class="icon_profile">
-                <img src="images/icon_profile.png" alt="logo">
+                <div class="image_area_item">
+                    <img src="images/image-2.png" alt="logo">
+                </div>
+                <div class="image_area_item">
+                    <img src="images/image-3.png" alt="logo">
+                </div>
+            </div>   <!-- images-items-->
+            <div class="Carousel_pagination">
+                <img src="images/carousel-pagination.png" alt="carousel_pagination">
             </div>
         </div>
-        <div class="overlay">
-            <div class="welcome-bg"></div>
-        </div>
-    </div>
-    <div class="About">
-        <div class="section_title">
-            <div class="about">About</div>
-            <div class="line"></div>
-        </div>
-        <div class="workspace">
-            The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside
-        </div>
-        <div class="images_area">
-            <div class="image_area_item">
-                <img src="images/image-1.png" alt="logo">
+        <div class="Favorites">
+            <div class="favorites_section-title">
+                <div class="favotites_line"></div>
+                <div class="favorites_label">Favorites</div>
             </div>
-            <div class="image_area_item">
-                <img src="images/image-2.png" alt="logo">
+            <div class="Pick_favorites_of_season">Pick favorites of season</div>
+            <div class="seasons">
+                <!-- name swason объединяет в группу и позволяет выбрать 1 из 4 вариантов кнопки-->
+                <div class="seasons_element">
+                    <input class="season_act" type="radio" id="Winter" name="seasons" checked><label for="Winter">Winter</label>
+                </div>
+                <div class="seasons_element">
+                    <label><input type="radio" id="Winter" name="seasons"> Spring </label>
+                </div>
+                <div class="seasons_element">
+                    <label><input type="radio" id="Winter" name="seasons"> Summer</label>
+                </div>
+                <div class="seasons_element">
+                    <label><input type="radio" id="Winter" name="seasons"> Autunm</label>
+                </div>
+
             </div>
-            <div class="image_area_item">
-                <img src="images/image-3.png" alt="logo">
+            <div class="favorites-items">
+                <div class="favorites-item">
+                    <div class="Staff">Staff Picks</div>
+                    <div class="Author">The Book Eaters <br> By Sunyi Dean</div>
+                    <div class="Discribe">An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance, and a strong, complex protagonist. Not for the faint of heart.</div>
+                    <div class="Book"><img src="images/book.png" alt="Book1"></div>
+                    <div class="book_buy_button"><button type="button">Buy</button></div>
+                </div>
+                <div class="favorites-item">
+                    <div class="Staff">Staff Picks</div>
+                    <div class="Author">Cackle By Rachel Harrison</div>
+                    <div class="Discribe">Are your Halloween movies of choice The Witches of Eastwick and Practical Magic? Look no further than here - where a woman recovering from a breakup moves to a quaint town in upstate New York and befriends a beautiful witch.</div>
+                    <div class="Book"><img src="images/book2.png" alt="Book2"></div>
+                    <div class="book_buy_button"><button type="button">Buy</button></div>
+                </div>
+                <div class="favorites-item">
+                    <div class="Staff">Staff Picks</div>
+                    <div class="Author">Dante: Poet of the Secular World By Erich Auerbach</div>
+                    <div class="Discribe">Auerbach's engaging book places the 'Comedy' within the tradition of epic, tragedy, and philosophy in general, arguing for Dante's uniqueness as one who raised the individual and his drama of soul into something of divine significance—an inspired introduction to Dante's main themes.</div>
+                    <div class="Book"><img src="images/book3.png" alt="Book3"></div>
+                    <div class="book_buy_button"><button type="button">Buy</button></div>
+                </div>
+                <div class="favorites-item">
+                    <div class="Staff">Staff Picks</div>
+                    <div class="Author">The Last Queen By Clive Irving</div>
+                    <div class="Discribe">A timely and revelatory new biography of Queen Elizabeth (and her family) exploring how the Windsors have evolved and thrived as the modern world has changed around them.</div>
+                    <div class="Book"><img src="images/book4.png" alt="Book4"></div>
+                    <div class="book_buy_button"><button type="button">Buy</button></div>
+                </div>
             </div>
-        </div>   <!-- images-items-->
-        <div class="Carousel_pagination">
-            <img src="images/carousel-pagination.png" alt="carousel_pagination">
-        </div>
-            
         </div>
     </div>
 </div>
