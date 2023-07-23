@@ -1,3 +1,5 @@
+/*TODO: Название разделов имеют одинаковые стили. нужно их объединить в один DIV,а не дублировать.*/
+
 body{
     margin: 0;
 }
@@ -149,7 +151,6 @@ body{
     
     width: 1440px;
     height: 1439px;
-    position: relative;
     background: #FFF;
 }
 .favorites_section-title{ /* Слово и подчеркивание Favorites*/
@@ -303,5 +304,225 @@ body{
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1px;
+}
+/* CoffeShop*/
 
+.CoffeShop{
+    margin-top: 50px;
+    width: 1440px;
+}
+.Coffee_title{
+    width: 224px;
+    height: 61px;
+    margin:20px auto;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.Coffee_line{
+    margin-top: -26px;
+    margin-left: 700px;
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+}
+.Coffee_discribe{
+    margin: 40px;
+    width: 1400px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.coffee_label_area{
+    display: flex;
+    justify-content: space-between;
+}
+.coffee_label{
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Coffee_menu_area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Coffe_menu{
+    display: grid;
+    grid-template-columns: 200px 100px 20px;
+}
+
+.coffee_grid1{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.coffee_grid2{
+    
+    margin-top: 20px;
+    width: 75px;
+    height: 1px;
+    background: #BB945F;
+}
+
+.coffee_grid3{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Contacts{
+    display: flex;
+    width: 1440px;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.contact_title{
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.contact_line{
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+}
+.contact_info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 201px;
+}
+.contact_maps{
+    width: 696px;
+    height: 414px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.contact_text{
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Library_Card{
+    width: 1440px;
+    height: 614px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.Library_title{
+    margin: 20px 526px;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.Library_line{
+    margin: 20px auto;
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+}
+.find_title{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.card_body{
+    display: flex;
+    width: 600px;
+    height: 387px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.get_card{
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.get_title{
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.get_body{
+    width: 456px;
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
 }
