@@ -8,31 +8,33 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title>Library</title>
+    <script src="js/index.js"></script>
+
+    <title>Brooklyn Public Library</title>
 </head>
 <body>
     <div class ="desktop">
         <div class="welcome">
-            <div class="header">
+            <section class="header">
                     <h1 class="Brooklyn_Public_Library">
                         Brooklyn Public Library
                     </h1>
                     <nav class="nav"> <!-- Панель навигации-->
-                        <a class="nav_link" href="#">About</a>
-                        <a class="nav_link" href="#">Favorites</a>
-                        <a class="nav_link" href="#">Coffee shop</a>
-                        <a class="nav_link" href="#">Contacts</a>
-                        <a class="nav_link" href="#">Library Card</a>
+                        <a class="nav_link" href="#About">About</a>
+                        <a class="nav_link" href="#Favorites">Favorites</a>
+                        <a class="nav_link" href="#CoffeShop">Coffee shop</a>
+                        <a class="nav_link" href="#Contacts">Contacts</a>
+                        <a class="nav_link" href="#Library_Card">Library Card</a>
                     </nav>
                     <div class="icon_profile">
                         <img src="images/icon_profile.png" alt="logo">
                     </div>
-            </div>
+            </section>
                     <div class="overlay">
                          <div class="welcome-bg"></div>
                     </div>
         </div>
-        <div class="About">
+        <section id="About" class="About">
             <div class="section_title">
                 <div class="about">About</div>
                 <div class="line"></div>
@@ -54,8 +56,8 @@
             <div class="Carousel_pagination">
                 <img src="images/carousel-pagination.png" alt="carousel_pagination">
             </div>
-        </div>
-        <div class="Favorites">
+        </section>
+        <section id="Favorites" class="Favorites">
             <div class="favorites_section-title">
                 <div class="favotites_line"></div>
                 <div class="favorites_label">Favorites</div>
@@ -107,9 +109,9 @@
                     <div class="book_buy_button"><button type="button">Buy</button></div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="CoffeShop">
+        <section id="CoffeShop" class="CoffeShop">
             <div class="Coffee_title">Coffee Shop</div>
             <div class="Coffee_line"></div>
             <div class="Coffee_discribe"> In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</div>
@@ -159,51 +161,53 @@
                     <div class="coffee_grid3">$14</div>
                 </div>
             </div>
-    </div>
-        <div class="Contacts">
+        </section>
+        <section id ="Contacts" class="Contacts">
             <div class="contact_title">Our Contacts</div>
             <div class="contact_line"></div>
             <div class="contact_info">
                 <div class="contact_left">
                     <div class="contact_text">
                         <b>For all Library inquiries:</b><p>
-                    Please call (617) 730-2370<p>
-                    For TTY service, please call (617) 730-2370<p>
-                    Putterham Library: (617) 730-2385<p>
+                    Please call <a href="tel:(617) 730-2370">+(617) 730-2370</a><p>
+                    For TTY service, please call <a href="tel:(617) 730-2370">+(617) 730-2370</a><p>
+                    Putterham Library: <a href="tel:(617) 730-2385">+(617) 730-2385</a><p>
                     <b>Senior Staff</b><p>
-                    Library Director: <b>Amanda Hirst</b>
+                    Library Director: <b><a href="mailto:AmandaHirst@gmail.com">Amanda Hirst</a></b>
                 </div>
                 </div>
                 <div class="contact_right">
                     <div class="contact_maps"><img src="images/contact_maps.png" alt="contact_maps"></div>
                 </div>
             </div>
-        </div>
-        <div class="Library_header">
-            <div class="Library_title">Digital Library Cards</div>
-            <div class="Library_line"></div>
-        </div>
-        <div class="Library_Card">
-            <div class="find_card">
-                <div class="find_title">Find your Library card</div>
-                <div class="white_bg">
-                    <div class="gold_bg">
-                        <div class="find_body">
-                            <div class="find_body_title">Brooklyn Public Library</div>
-                            <input class="input_name" placeholder="Reader`s name"><br>
-                            <input class="input_name" placeholder="Card number"><br>
+        </section>
+        <section class="Digital_Library">
+            <div class="Library_header">
+                <div class="Library_title">Digital Library Cards</div>
+                <div class="Library_line"></div>
+            </div>
+            <div  id="Library_Card" class="Library_Card">
+                <div class="find_card">
+                    <div class="find_title">Find your Library card</div>
+                    <div class="white_bg">
+                        <div class="gold_bg">
+                            <div class="find_body">
+                                <div class="find_body_title">Brooklyn Public Library</div>
+                                <input class="input_name" placeholder="Reader`s name"><br>
+                                <input class="input_name" placeholder="Card number"><br>
+                            </div>
                         </div>
+                        <button class="find_botton" type="button">Check the card</button>
                     </div>
-                    <button class="find_botton" type="button">Check the card</button>
+                </div>
+                <div class="get_card">
+                    <div class="get_title">Get a reader card</div>
+                    <div class="get_body">You will be able to see a reader card after logging into account or you can register a new account
+                    <br><button class="card_botton" type="button">Sign Up</button> <button class="card_botton" type="button">Log in</button>
+                    </div>
                 </div>
             </div>
-            <div class="get_card">
-                <div class="get_title">Get a reader card</div>
-                <div class="get_body">You will be able to see a reader card after logging into account or you can register a new account
-                <br><button class="card_botton" type="button">Sign Up</button> <button class="card_botton" type="button">Log in</button>
-                </div>
-            </div>
-        </div>
+        </section>
         <section class="Footer">
             <div class="footer_adress_line">
                 <div class="footer_first_line">

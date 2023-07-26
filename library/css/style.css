@@ -57,6 +57,10 @@ body{
     line-height: 50px;
     text-decoration: none;
 }
+.nav_link:hover{
+    color: #c8a271;
+    font-size: 21px;
+}
 .icon_profile{
     margin-right: 31px;
     width: 28px;
