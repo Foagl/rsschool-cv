@@ -1,8 +1,11 @@
-html {  /* Плавная прокрутка*/
-    scroll-behavior: smooth;
+html {  
+    scroll-behavior: smooth; /* Плавная прокрутка*/
     }
 body{
-    margin: 0;
+    margin: 0; /* Убрать отступы по краям всего документа*/
+}
+a{
+    color :#000; /* Правило для того, что бы в разделе контактов не было на ссылках синего подчеркивания.*/
 }
 .desktop{      /* Правило для всего макета*/
     display: flex;
@@ -43,7 +46,7 @@ body{
 }
 
 .nav{
-    margin-left: 458px;
+    margin-left: 420px;
     display: inline-flex; /* Делает отступы между элементами меню*/
     align-items: flex-start;
     gap: 30px; /* Размер отступов*/
@@ -69,13 +72,7 @@ body{
     height: 28px;
     flex-shrink: 0;
 }
-.overlay{
-    width: 1440px;
-    height: 300px;
-    flex-shrink: 0;
 
-    background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
-}
 .welcome-bg{
     display: flex;
     width: 600px;
@@ -98,7 +95,7 @@ body{
     height: 61px;
     flex-shrink: 0;
  }
-.about{  /* текст About*/
+h2{  /* h2 Оформление заголовков разделов*/
     color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
@@ -108,12 +105,11 @@ body{
     letter-spacing: 2px;
     text-transform: capitalize;
  }
-.line{   /* Подчеркивание*/
+.line{   /* Подчеркивание заголовков*/
     width: 70px;
     height: 1px;
     flex-shrink: 0;
-    margin-left: 25px; /* !TODO: Make underline center without use margin */
-    margin-top: 10px;
+    margin: 20px auto;
     background: #0C0C0E;
 }
 .workspace{  /* The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside*/
@@ -159,33 +155,14 @@ body{
     height: 1439px;
     background: #FFF;
 }
-.favorites_section-title{ /* Слово и подчеркивание Favorites*/
-    margin: 20px auto;
+.favorites_section-title{ 
+    margin-top: 20px;
+    margin-left: 640px;
     width: 160px;
     height: 61px;
     flex-shrink: 0;
 }
-.favotites_line{
-    position: relative;
-    top: 60px;
-    left: 55px;
-    right: 55px;
-    width: 50px;
-    height: 1px;
-    flex-shrink: 0;
 
-    background: #0C0C0E;
-}
-.favorites_label{
-    color: #0C0C0E;
-    font-family: Forum;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 100% */
-    letter-spacing: 2px;
-    text-transform: capitalize;
-}
 .Pick_favorites_of_season{
     margin-top: 70px;
     margin-left: 70px;
@@ -324,26 +301,11 @@ body{
     margin-top: 50px;
     width: 1440px;
 }
-.Coffee_title{
-    width: 224px;
+.CoffeShop_title{
+    width: 225px;
     height: 61px;
-    margin:20px auto;
-    color: #0C0C0E;
-    font-family: Forum;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 100% */
-    letter-spacing: 2px;
-    text-transform: capitalize;
-}
-.Coffee_line{
-    margin-top: -26px;
-    margin-left: 700px;
-    width: 50px;
-    height: 1px;
-    flex-shrink: 0;
-    background: #0C0C0E;
+    margin-top: 20px;
+    margin-left: 610px;
 }
 .Coffee_discribe{
     margin: 40px;
@@ -422,34 +384,23 @@ body{
     gap: 40px;
 }
 .contact_title{
-    color: #0C0C0E;
-    text-align: center;
-    font-family: Forum;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 100% */
-    letter-spacing: 2px;
-    text-transform: capitalize;
+    width: 245px;
+    height: 61px;
+    margin: 20px 600px;
 }
-.contact_line{
-    width: 50px;
-    height: 1px;
-    flex-shrink: 0;
-    background: #0C0C0E;
-}
+
 .contact_info{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 201px;
+    margin-top: 40px;
 }
 .contact_maps{
     width: 696px;
     height: 414px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-
 .contact_text{
     color: #000;
     text-align: left;
@@ -463,31 +414,21 @@ body{
 }
 
 .Library_Card{
+    margin-top: 20px;
     width: 1440px;
     height: 614px;
     background: #FFF;
     display: flex;
     justify-content: space-between;
 }
-.Library_title{
-    margin: 20px 526px;
-    color: #0C0C0E;
-    text-align: center;
-    font-family: Forum;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px; /* 100% */
-    letter-spacing: 2px;
-    text-transform: capitalize;
-}
-.Library_line{
-    margin: 20px auto;
-    width: 50px;
-    height: 1px;
+.library_title{
+    width: 375px;
+    height: 61px;
     flex-shrink: 0;
-    background: #0C0C0E;
+    margin-top: 20px;
+    margin-left: 534px;
 }
+
 .find_title{
     color: #000;
     font-family: Inter;
