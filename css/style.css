@@ -1,0 +1,700 @@
+html {  
+    scroll-behavior: smooth; /* Плавная прокрутка*/
+    }
+body{
+    margin: 0; /* Убрать отступы по краям всего документа*/
+}
+a{
+    color :#000; /* Правило для того, что бы в разделе контактов не было на ссылках синего подчеркивания.*/
+}
+.desktop{      /* Правило для всего макета*/
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.welcome{     /* Логотип, меню*/
+    width: 1440px;
+    height: 600px;
+    background: url(../images/Welcome.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    
+}
+.header{
+    display: flex;
+    height: 90px;
+    width: 1440px;
+    background-color: #0C0C0E;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.Brooklyn_Public_Library{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 310px;
+    height: 50px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.nav{
+    margin-left: 420px;
+    display: inline-flex; /* Делает отступы между элементами меню*/
+    align-items: flex-start;
+    gap: 30px; /* Размер отступов*/
+    color: #FFF;
+}
+.nav_link{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 0.3s linear;
+}
+.nav_link:hover{
+    color: #c8a271;
+    
+    transform: scale(1.2)
+}
+.icon_profile{
+    margin-right: 31px;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.welcome-bg{
+    display: flex;
+    width: 600px;
+    height: 220px;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;    
+}
+
+.About{ /* Область раздела About*/
+    width: 1440px;
+    height: 837px;
+    background: #FFF;
+ }
+.section_title{      
+    margin: 20px auto;
+    width: 100px;
+    height: 61px;
+    flex-shrink: 0;
+ }
+h2{  /* h2 Оформление заголовков разделов*/
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 2px;
+    text-transform: capitalize;
+ }
+.line{   /* Подчеркивание заголовков*/
+    width: 70px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: 20px auto;
+    background: #0C0C0E;
+}
+.workspace{  /* The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside*/
+    width: 1440px;
+    margin-top: 25px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+}
+.images_area{  /*images_items*/
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex; 
+    justify-content: space-between;
+    width: 1400px;
+    height: 560px;
+    flex-shrink: 0;
+}
+.image_area_item {
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+
+    background:  lightgray 50% / cover no-repeat;
+}
+
+.Carousel_pagination{
+    
+    margin: 40px auto; /* Первое это высота и низ. Второе это авто- по середине сделать элемент*/
+    width: 68px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+/* Раздел Favorites*/
+.Favorites{   /* Разметка области раздела*/
+    
+    width: 1440px;
+    height: 1439px;
+    background: #FFF;
+}
+.favorites_section-title{ 
+    margin: 20px auto;
+    width: 160px;
+    height: 61px;
+    flex-shrink: 0;
+}
+
+.Pick_favorites_of_season{
+    margin-top: 70px;
+    margin-left: 70px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.seasons{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    gap: 90px;
+    width: 700px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.seasons_element{
+    position: relative;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.favorites-items{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 57px;
+    width: 1400px;
+    height: 1150px;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+.favorites-item{
+    position: relative;
+    width: 550px;
+    height: 555px;
+    flex-shrink: 0;
+
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+.Staff{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Author{
+    position: absolute;
+    
+    top: 75px;
+    left: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.Discribe{
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    width: 355px;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Book{
+    position: absolute;
+    bottom: -5px;
+    right: -45px;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+
+    background:  lightgray 50% / cover no-repeat;
+}
+
+.book_buy_button{
+    position: absolute;
+    top: 510px;
+    left: 20px;
+    bottom: 15px;
+    
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    transition: 0.3s linear;
+    cursor:pointer;
+}
+
+.book_buy_button_Own{
+    position: absolute;
+    top: 510px;
+    left: 20px;
+    bottom: 15px;
+    
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+
+    color: #BB945F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    transition: 0.3s linear;
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    cursor:pointer;
+}
+
+
+.book_buy_button:hover{
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+}
+/* CoffeShop*/
+
+.CoffeShop{
+    margin-top: 120px;
+    width: 1440px;
+}
+.CoffeShop_title{
+    width: 225px;
+    height: 61px;
+    margin-top: 20px;
+    margin-left: 610px;
+}
+.Coffee_discribe{
+    margin: 40px;
+    width: 1400px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.coffee_label_area{
+    display: flex;
+    justify-content: space-between;
+}
+.coffee_label{
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Coffee_menu_area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Coffe_menu{
+    display: grid;
+    grid-template-columns: 250px 150px 30px;
+}
+
+.coffee_grid1{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.coffee_grid2{
+    
+    margin-top: 20px;
+    width: 75px;
+    height: 1px;
+    background: #BB945F;
+}
+
+.coffee_grid3{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Contacts{
+    display: flex;
+    width: 1440px;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.contact_title{
+    width: 245px;
+    height: 61px;
+    margin: 20px 600px;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 201px;
+    margin-top: 40px;
+}
+.contact_maps{
+    width: 696px;
+    height: 414px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.contact_text{
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.Library_Card{
+    margin-top: 20px;
+    width: 1440px;
+    height: 614px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.library_title{
+    width: 375px;
+    height: 61px;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: 534px;
+}
+
+.find_title{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+.card_body{
+    display: flex;
+    width: 600px;
+    height: 387px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.get_card{
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.get_title{
+    color: #000;
+    text-align: center;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.get_body{
+    margin-top: 30px;
+    width: 456px;
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.white_bg{
+    margin-top: 30px;
+    width: 600px;
+    height: 386px;
+    flex-shrink: 0;
+
+    border: 3px solid #BB945F;
+    background: #FFF;
+}
+.gold_bg{
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    width: 560px;
+    height: 272px;
+    flex-shrink: 0;
+    background: #BB945F;
+
+    
+}
+
+.find_body_title{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+.input_name{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 520px;
+    height: 66px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #FFF;
+
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    color: #8E8E8E;
+}
+.find_botton{
+    margin: 20px 178px;
+    padding: 10px 40px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+.find_botton:hover{
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+}
+
+.card_botton{ 
+    margin-top: 30px;
+    margin-right: 10px;
+
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+}
+.card_botton:hover{
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+}
+.Footer{
+    width: 1440px;
+    height: 200px;
+    background: #0C0C0E;
+    display: flex;
+}
+.footer_adress_line{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 90px;
+    flex-shrink: 0;
+}
+.footer_first_line{
+    display: flex;
+    width: 1400px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1000px;
+    flex-shrink: 0;
+
+    width: 229px;
+    flex-shrink: 0;
+
+}
+.footer_frame{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: -60px;
+    width: 229px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+.footer_frame_icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.footer_second_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px;
+}
+.footer_three_line{
+    width: 1400px;
+    height: 1px;
+    background: #FFF;
+    margin: 20px 20px
+}
+
+.footer_four_line{
+    display: flex;
+    width: 1400px;
+    height: 22px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_font{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
+}
+
+.footer_discription{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
+    text-decoration: none;
+}
