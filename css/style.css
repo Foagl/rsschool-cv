@@ -16,7 +16,7 @@ a{
     margin: 0 auto;
 }
 
-.welcome{     /* Логотип, меню*/
+.welcome{     
     width: 1440px;
     height: 600px;
     background: url(../images/Welcome.png), lightgray 50% / cover no-repeat;
@@ -31,6 +31,7 @@ a{
     align-items: center;
     justify-content: space-between;    
 }
+
 
 .Brooklyn_Public_Library{
     margin-left: 20px;
@@ -74,7 +75,9 @@ a{
     height: 28px;
     flex-shrink: 0;
 }
-
+.burger{
+    display: none;
+}
 .welcome-bg{
     display: flex;
     width: 600px;
@@ -97,6 +100,7 @@ a{
     flex-shrink: 0;
  }
 h2{  /* h2 Оформление заголовков разделов*/
+    margin: 0;
     color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
@@ -350,10 +354,22 @@ h2{  /* h2 Оформление заголовков разделов*/
 }
 
 .coffee_label_area{
+    position: relative;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 .coffee_label{
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.coffee_label2{
     color: #BB945F;
     font-family: Forum;
     font-size: 40px;
@@ -610,7 +626,7 @@ h2{  /* h2 Оформление заголовков разделов*/
     border: 1px solid #BB945F;
     background: #BB945F;
 }
-.Footer{
+.footer{
     width: 1440px;
     height: 200px;
     background: #0C0C0E;
@@ -675,6 +691,7 @@ h2{  /* h2 Оформление заголовков разделов*/
     flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
+    padding-left: 20px;
 }
 .footer_font{
     color: #FFF;
@@ -697,4 +714,235 @@ h2{  /* h2 Оформление заголовков разделов*/
     line-height: 20px; /* 100% */
     letter-spacing: 2px;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .desktop{
+        display: flex;
+        width: 768px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .welcome{     
+        width: 768px;
+        height: 600px;
+        background: url(../images/Welcome.png), lightgray 50% / cover no-repeat;
+        background-size: cover;
+        
+    }
+    .nav {
+        display: none;
+    }
+    .header{
+        display: flex;
+        width: 768px;
+        height: 90px;
+        
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .Brooklyn_Public_Library{
+        width: 294px;
+        height: 50px;
+        color: #FFF;
+        font-family: Forum;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 166.667% */
+        letter-spacing: 0.6px;
+        margin-left: 0px;
+    }
+
+    .icon_profile{
+        width: 28px;
+        height: 28px;
+        margin-left: 290px;
+        flex-shrink: 0;
+    }
+    .burger{
+        display: block;
+        width: 45px;
+        height: 20px;
+        flex-shrink: 0;
+        margin-right: 60px;
+    }
+    .section_title{
+        margin-top: 20px;
+        margin-left: 331px;
+    }
+    .workspace{
+        width: 728px;
+        height: 80px;
+        margin-top: 21px;
+        margin-left: 20px;
+    }
+    .About{
+        width: 768px;
+    }
+    .images_area{
+        display: block;
+        margin-top: 20px;
+        margin-left: 77px;
+        width: 768px;
+        
+    }
+    .image_area_item{
+        display: block;
+    }
+    .image_area_item ~ .image_area_item{  /*Заглушка. Выключают остальные картинки, пока не вставил карусель.*/
+        display: none;
+    }
+    .Carousel_pagination{
+        width: 120px;
+        height: 16px;
+        margin-top: 20px;
+        margin-left: 324px; /* Значение от балды. Испрвить*/
+    }
+    .Favorites{
+        width: 768px;
+        height: 2629px;
+    }
+    .Pick_favorites_of_season{
+        margin-left: 20px;
+    }
+    .seasons{
+        margin-left: 20px;
+    }
+    .favorites-items{
+        width: 768px;
+    }
+    .CoffeShop{
+        margin-top: 220px;
+        width: 768px;
+    }
+    .CoffeShop_title{
+        width: 222px;
+        height: 40px;
+        margin-left: 274px;
+    }
+    .Coffee_discribe{
+        width: 728px;
+        margin: 40px 20px;
+    }
+    .Coffe_menu{
+        margin-left: 20px;
+    }
+    .Coffe_menu ~ .Coffe_menu{
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+    .Coffee_menu_area{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .coffee_label2 {
+        position: absolute;
+        top: 334px;
+        left: 421px;
+        color: #BB945F;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .coffee_label {
+        margin-left: 20px;
+        color: #BB945F;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+    }
+    .Contacts{
+        display: flex;
+        width: 767px;
+        padding: 20px 20px 40px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .contact_info{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .contact_maps{
+        margin-right: 40px;
+    }
+    .library_title{
+        Width: 374px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 223px;
+    }
+    .Library_Card{
+        width: 768px;
+        height: 857px;
+        margin-top: 60px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .white_bg{
+        margin-left: 84px;
+    }
+    .get_body {
+        margin-top: 30px;
+        margin-left: 84px;
+        width: 600px;
+        text-align: center;
+}
+    .footer{
+        width: 768px;
+        height: 250px;
+    }
+    .main{
+        width: 768px;
+    }
+    .footer_adress_line{ 
+        width: 728px;
+    }
+    .footer_first_line{
+        margin-left: -20px;
+        display: flex;
+        width: 728px;
+        justify-content: center;
+        align-items: center;
+        gap: 315px;
+
+    }
+    .footer_second_line{
+        margin-top: 10px;
+        margin-left: -20px;
+        display: flex;
+        width: 728px;
+        justify-content: center;
+        align-items: center;
+        gap: 315px;
+    }
+    .footer_three_line{
+        margin-top: 40px;
+        width: 728px;
+        height: 1px;
+        margin: 20px;
+    }
+    .footer_four_line{
+        display: flex;
+        width: 728px;
+        gap: 138px;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .footer_frame{
+        margin-left: 0px
+    }
 }
